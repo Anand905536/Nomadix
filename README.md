@@ -1,18 +1,19 @@
-# React + Vite
+✈️ Nomadix – Modern Travel & Exploration UI
+Nomadix is a high-fidelity, responsive travel landing page built to provide a premium user experience. It features fluid, physics-based animations and a clean, "coffee-shop" aesthetic designed for modern travelers seeking their next journey.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Key Features
+Physics-Based Animations: Utilizes Framer Motion with custom cubic-bezier easing for a smooth, high-end "sliding into place" entrance effect.
+Dynamic Filtering: Seamlessly switch between travel categories (Beach, Mountain, etc.) with coordinated entry/exit animations.
+Modern UI/UX: A minimalist design built with Tailwind CSS, featuring glassmorphism navigation, soft shadows, and deep rounded corners (3xl).
+Responsive Design: Optimized for all devices, from mobile-first layouts to expansive desktop views.
+Interactive Components: Custom hover effects, smooth scroll navigation, and intelligent viewport triggering for animations.
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Frontend: React 18, Vite
+Styling: Tailwind CSS (Modern configuration)
+Animations: Framer Motion
+Icons: Lucide React
+State Management: React useState for category handling and useRef for smooth-scroll navigation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live 
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
